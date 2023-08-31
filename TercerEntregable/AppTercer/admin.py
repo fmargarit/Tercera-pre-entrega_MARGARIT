@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models        import Cliente, Proveedor, Producto, RubroProd, OrdenCompra
+from django.db import models
+from .models        import *
 
 # Register your models here.
 admin.site.register(Cliente)

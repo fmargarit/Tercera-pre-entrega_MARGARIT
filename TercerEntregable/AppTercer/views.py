@@ -1,7 +1,9 @@
 from django.shortcuts import render
 from django.http      import HttpResponse
-from .models          import Cliente, Proveedor, Producto, RubroProd, OrdenCompra
-from .forms           import AltaCliente, AltaProducto, AltaProveedor, AltaPedido, AltaRubro
+
+from .admin import Proveedor
+from .models          import *
+from .forms           import *
 
 # Create your views here.
 
